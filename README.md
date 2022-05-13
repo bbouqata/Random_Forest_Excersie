@@ -3,17 +3,127 @@ The pre-trained models can be found here:
 https://drive.google.com/drive/folders/1gGdaEMenUj5yVl-WLW7qSm29x63x1VGK?usp=sharing
 
 
-This the performance metrics for 80: 20 split of the data for training and testing.
+
+This the performance metrics for the model: random_forest_n_estimtor_100.joblib
+
+for 80: 20 split of the data for training and testing.
+
+For the following Parameters in use:
+
+{'bootstrap': True,
+ 'ccp_alpha': 0.0,
+ 'class_weight': None,
+ 'criterion': 'gini',
+ 'max_depth': None,
+ 'max_features': 'auto',
+ 'max_leaf_nodes': None,
+ 'max_samples': None,
+ 'min_impurity_decrease': 0.0,
+ 'min_impurity_split': None,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'min_weight_fraction_leaf': 0.0,
+ 'n_estimators': 100,
+ 'n_jobs': None,
+ 'oob_score': False,
+ 'random_state': 42,
+ 'verbose': 0,
+ 'warm_start': False}
+ 
+ -------------------------TEST SCORES-----------------------
+ 
+Recall: 23.1476
+
+Precision: 86.3014
+
+F1-Score: 36.5041
+
+Accuracy score: 81.3122
+
+AUC Score: 61.0186
+
+
+ 
+This the performance metrics for the model: random_forest_n_estimtor_1000.joblib 
+
+for 80: 20 split of the data for training and testing.
+
+For the following Parameters in use: 
+
+{'bootstrap': True,
+ 'ccp_alpha': 0.0,
+ 'class_weight': None,
+ 'criterion': 'gini',
+ 'max_depth': None,
+ 'max_features': 'auto',
+ 'max_leaf_nodes': None,
+ 'max_samples': None,
+ 'min_impurity_decrease': 0.0,
+ 'min_impurity_split': None,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'min_weight_fraction_leaf': 0.0,
+ 'n_estimators': 1000,
+ 'n_jobs': None,
+ 'oob_score': False,
+ 'random_state': 42,
+ 'verbose': 0,
+ 'warm_start': False}
+ 
+ -------------------------TEST SCORES-----------------------
+ 
 
 Recall: 22.7189
-#
+
 Precision: 89.6857
-#
+
 F1-Score: 36.2541
-#
+
 Accuracy score: 81.459
-#
+
 AUC Score: 60.9647
+
+
+
+This the performance metrics for the model: random_forest_rf_clf.joblib 
+
+for 80: 20 split of the data for training and testing.
+
+For the following Parameters in use: 
+
+{'bootstrap': True,
+ 'ccp_alpha': 0.0,
+ 'class_weight': None,
+ 'criterion': 'gini',
+ 'max_depth': None,
+ 'max_features': 'auto',
+ 'max_leaf_nodes': None,
+ 'max_samples': None,
+ 'min_impurity_decrease': 0.0,
+ 'min_impurity_split': None,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'min_weight_fraction_leaf': 0.0,
+ 'n_estimators': 100,
+ 'n_jobs': None,
+ 'oob_score': False,
+ 'random_state': 100,
+ 'verbose': 0,
+ 'warm_start': False}
+
+-------------------------TEST SCORES-----------------------
+
+Recall: 36.9259
+
+Precision: 58.3925
+
+F1-Score: 45.242
+
+Accuracy score: 79.2563
+
+AUC Score: 64.4873
+
+
 
 # Data Preprocessing:
  There are several missing values in the following features

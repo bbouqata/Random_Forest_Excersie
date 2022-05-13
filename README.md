@@ -3,6 +3,18 @@ The pre-trained models can be found here:
 https://drive.google.com/drive/folders/1gGdaEMenUj5yVl-WLW7qSm29x63x1VGK?usp=sharing
 
 
+This the performance metrics for 80: 20 split of the data for training and testing.
+
+Recall: 22.7189
+#
+Precision: 89.6857
+#
+F1-Score: 36.2541
+#
+Accuracy score: 81.459
+#
+AUC Score: 60.9647
+
 # Data Preprocessing:
  There are several missing values in the following features
  Credit Score                   ---  20553 missing values
